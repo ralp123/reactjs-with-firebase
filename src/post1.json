@@ -1,0 +1,29 @@
+[
+    {
+      "id": 0,
+      "title": "The Ghost",
+      "author": "Pando Crowbarjones",
+      "content": "Lorem Epsum",
+      "img_path": "./images/dog.jpg",
+      "date" : "",
+      "published" : "1"
+    },
+    {
+      "id": 1,
+      "title": "The Cat",
+      "author": "Pando Crowbarjones",
+      "content": "Lorem Epsum",
+      "img_path": "./images/dog.jpg",
+      "date" : "",
+      "published" : "1"
+    },
+    {
+      "id": 2,
+      "title": "The Dog",
+      "author": "Pando Crowbarjones",
+      "content": "Lorem Epsum",
+      "img_path": "./images/dog.jpg",
+      "date" : "",
+      "published" : "1"
+    }
+  ]

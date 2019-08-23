@@ -39,6 +39,7 @@ class Profile extends Component {
 
 	componentDidMount(){
 		//console.log('componentDidMount');
+		
 	}
 
 	componentDidUpdate(){
@@ -128,6 +129,7 @@ class Profile extends Component {
 
 	loadData = () => {
 		const postData = JSON.parse(localStorage.getItem('postData'));
+
 		let tableDetails;
 
 		if(postData){

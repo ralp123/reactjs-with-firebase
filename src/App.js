@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 //import { Router, Link } from "@reach/router";
 import Home from './Home';
 import Profile from './Profile';
-
-//import Test from './Test';
+import FireBase from './FireBase';
 
 function App() {
 	return (
@@ -23,12 +22,16 @@ function App() {
 						<li className="nav-item">
 							<Link className="nav-link" to="/profile" component={Profile}>Profile</Link>
 						</li>
+						<li className="nav-item">
+							<Link className="nav-link" to="/firebase" component={FireBasePage}>Test</Link>
+						</li>
 					</ul>
 				</nav>
 			</div>
 			<div className="container">
 				<Route exact path="/" component={HomePage} />
 				<Route path="/profile" component={ProfilePage} />
+				<Route path="/firebase" component={FireBasePage} />
 			</div>
 	  	</Router>
 	);
@@ -46,6 +49,14 @@ function ProfilePage() {
 	return (
 		<>
 			<Profile />
+		</>
+	);
+}
+
+function FireBasePage() {
+	return (
+		<>
+			<FireBase />
 		</>
 	);
 }
